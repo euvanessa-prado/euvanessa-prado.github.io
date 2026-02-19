@@ -35,7 +35,7 @@ export function Header() {
               </Link>
             ))}
             <Button variant="outline" size="sm" className="gap-2 bg-transparent" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/euvanessa-prado" target="_blank" rel="noopener noreferrer">
                 <Github className="w-4 h-4" />
                 GitHub
               </a>
@@ -67,7 +67,7 @@ export function Header() {
                 </Link>
               ))}
               <Button variant="outline" size="sm" className="gap-2 w-fit bg-transparent" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/euvanessa-prado" target="_blank" rel="noopener noreferrer">
                   <Github className="w-4 h-4" />
                   GitHub
                 </a>

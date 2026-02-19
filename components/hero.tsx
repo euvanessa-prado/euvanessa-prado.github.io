@@ -47,11 +47,11 @@ export function Hero() {
           </div>
           
           <p className="text-muted-foreground text-lg leading-relaxed mb-4 max-w-2xl">
-            +8 anos em Tecnologia da Informacao. Projeto e otimizo pipelines de dados na AWS, 
+            +8 anos em Tecnologia da Informação. Projeto e otimizo pipelines de dados na AWS, 
             integrando multiplas fontes com qualidade, governanca e alta disponibilidade.
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-2xl">
-            Meu foco: transformar dados brutos em uma base solida para decisoes rapidas e seguras.
+            Meu foco: transformar dados brutos em uma base sólida para decisoes rápidas e seguras.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-12">

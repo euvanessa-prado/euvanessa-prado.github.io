@@ -1,58 +1,58 @@
 const experiences = [
   {
-    title: "Data Analyst",
+    title: "Analista de Dados",
     company: "CASSEMS",
     period: "Out 2023 - Presente",
     location: "Mato Grosso do Sul, BR",
     current: true,
-    description: "Transformo dados brutos em insights estratégicos, aumentando a eficiência na tomada de decisão.",
+    description: "Responsavel pela engenharia e qualidade dos dados que sustentam a tomada de decisao estrategica da organizacao.",
     highlights: [
-      "Executo e otimizo pipelines ETL/ELT de ponta a ponta (extração, limpeza, normalização e transformação), melhorando a confiabilidade dos dados",
-      "Desenvolvo a camada de modelagem de dados para suporte a BI, garantindo que o fluxo de extração seja resiliente e performático",
-      "Construo dashboards interativos com Power BI e Qlik Sense, reduzindo o tempo de análise manual",
-      "Construo views e funções SQL para padronizar regras de negócio, reduzindo o tempo de processamento de consultas complexas",
-      "Apoio às áreas de negócio na interpretação de KPIs e implementação de métricas orientadas por dados",
-      "Asseguro qualidade, consistência e integridade dos dados por meio de regras de validação, reduzindo discrepâncias em 30%",
+      "Desenvolvimento de views, funcoes e CTEs em SQL avancado com foco em performance e escalabilidade",
+      "Construcao e otimizacao de pipelines ETL para extracao, transformacao e disponibilizacao de dados",
+      "Modelagem relacional e dimensional para Data Warehouse e suporte analitico",
+      "Estruturacao de datasets otimizados para consumo em Power BI e Qlik Sense",
+      "Implementacao de regras de validacao e controles de qualidade, garantindo consistencia e integridade",
+      "Traducao de requisitos de negocio em solucoes tecnicas orientadas por dados e definicao de KPIs",
     ],
   },
   {
-    title: "Data Analyst",
+    title: "Analista de Dados",
     company: "UNIMED",
     period: "Out 2024 - Nov 2024",
     location: "Mato Grosso do Sul, BR",
     current: false,
-    description: "Construção de dashboards, análises e processos de ETL para qualidade dos dados e apoio à gestão.",
+    description: "Apoio a gestao com dashboards, analises e processos de ETL para garantir qualidade dos dados.",
     highlights: [
-      "Construção de dashboards e relatórios analíticos",
-      "Processos de ETL para garantir qualidade dos dados",
-      "Apoio à gestão na tomada de decisões baseadas em dados",
+      "Construcao de dashboards e relatorios analiticos para apoio a decisao",
+      "Desenvolvimento de processos ETL para garantir qualidade e consistencia dos dados",
     ],
   },
   {
-    title: "IT Systems Analyst",
+    title: "Analista de Sistemas Senior",
     company: "CASSEMS",
     period: "Out 2022 - Set 2023",
     location: "Mato Grosso do Sul, BR",
     current: false,
-    description: "Configuração e otimização de sistemas hospitalares com foco em migração de dados.",
+    description: "Configuracao e otimizacao de sistemas hospitalares em 10 unidades, com migracao de bases Oracle.",
     highlights: [
-      "Configurei e otimizei módulos do sistema hospitalar em 10 unidades, garantindo alinhamento operacional e regulatório",
-      "Migração de bases de dados Oracle para 10 unidades hospitalares, garantindo integridade dos registros médicos",
-      "Melhoria de 40% na acurácia dos dados após processo de migração",
+      "Configuracao e otimizacao de modulos do sistema hospitalar em 10 unidades",
+      "Migracao de bases de dados Oracle com melhoria de 40% na acuracia dos registros medicos",
+      "Validacao entre sistemas legados e novo sistema, prevenindo inconsistencias na transicao",
+      "Documentacao tecnica, fluxos padronizados e dashboards para apoio operacional e gerencial",
     ],
   },
   {
-    title: "Analista de Negócios",
+    title: "Analista de Negocios",
     company: "CASSEMS",
     period: "Fev 2018 - Out 2022",
     location: "Mato Grosso do Sul, BR",
     current: false,
-    description: "Validação de bases, documentação técnica e suporte durante implantação de sistemas.",
+    description: "Mapeamento de processos e levantamento de requisitos para implantacao de sistemas hospitalares.",
     highlights: [
-      "Validei bases entre sistemas legados e novo sistema, prevenindo inconsistências durante a transição",
-      "Desenvolvi documentação técnica, fluxos padronizados e dashboards analíticos para apoiar decisões operacionais",
-      "Prestei suporte técnico especializado durante e após o go-live, garantindo estabilidade do sistema",
-      "Resultado: Melhoria de 40% na acurácia dos dados e implantação concluída dentro do prazo em todas as unidades",
+      "Mapeamento de processos assistenciais, administrativos e financeiros para definicao de requisitos",
+      "Coleta de requisitos com equipes multidisciplinares (TI, faturamento, regulacao, auditoria)",
+      "Conducao de treinamentos e implantacao em campo em hospitais do Estado",
+      "Resultado: curva de adocao do sistema em 75%",
     ],
   },
   {
@@ -61,13 +61,12 @@ const experiences = [
     period: "Jan 2017 - Jan 2018",
     location: "Mato Grosso do Sul, BR",
     current: false,
-    description: "Suporte aos fluxos operacionais hospitalares e implementação do Prontuário Eletrônico.",
+    description: "Suporte operacional hospitalar e contribuicao para implantacao do Prontuario Eletronico do Paciente.",
     highlights: [
-      "Organizei registros de faturamento e prontuários médicos",
-      "Atualizei e validei dados, apoiei o processo de faturamento",
-      "Contribuí para a implantação do Prontuário Eletrônico do Paciente (PEP) no Hospital em Campo Grande - MS",
-      "Realizei conferências de dados financeiros e integrações no sistema hospitalar MVSOUL",
-      "Resultado: Redução de ~20% das divergências em registros médicos",
+      "Organizacao de registros de faturamento e prontuarios medicos",
+      "Apoio ao processo de faturamento e validacao de dados no sistema MVSOUL",
+      "Contribuicao para implantacao do Prontuario Eletronico do Paciente (PEP)",
+      "Resultado: reducao de ~20% nas divergencias de registros medicos",
     ],
   },
 ]
@@ -78,8 +77,8 @@ export function Experience() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <p className="font-mono text-primary mb-2">{"// work_experience.log"}</p>
-          <h2 className="text-4xl sm:text-5xl font-bold">
-            <span className="text-foreground">Experiência </span>
+          <h2 className="text-4xl sm:text-5xl font-bold text-balance">
+            <span className="text-foreground">Experiencia </span>
             <span className="text-primary">Profissional</span>
           </h2>
         </div>

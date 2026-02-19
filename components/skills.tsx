@@ -2,46 +2,46 @@ import { Code2, Cloud, Database, GitBranch, Workflow, BarChart3, Award } from "l
 
 const skillCategories = [
   {
-    title: "Linguagens",
+    title: "Linguagens & Processamento",
     icon: Code2,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
-    skills: ["Python", "SQL", "Bash"],
+    skills: ["Python", "SQL", "Bash", "PySpark"],
   },
   {
-    title: "Cloud (AWS)",
+    title: "Cloud - AWS",
     icon: Cloud,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
-    skills: ["S3", "RDS/Aurora", "VPC", "EC2", "ECS", "Lambda", "CloudWatch", "IAM"],
+    skills: ["S3", "RDS/Aurora", "Redshift", "Athena", "EMR", "Lambda", "ECS", "EC2", "VPC", "IAM", "CloudWatch", "Step Functions"],
     highlighted: true,
   },
   {
-    title: "Databases",
+    title: "Bancos de Dados",
     icon: Database,
-    iconColor: "text-pink-400",
-    iconBg: "bg-pink-400/10",
-    skills: ["PostgreSQL", "MySQL", "Oracle", "Redshift", "Athena"],
+    iconColor: "text-primary",
+    iconBg: "bg-primary/10",
+    skills: ["PostgreSQL", "MySQL", "Oracle"],
   },
   {
-    title: "DevOps",
+    title: "DevOps & Containers",
     icon: GitBranch,
-    iconColor: "text-violet-400",
-    iconBg: "bg-violet-400/10",
+    iconColor: "text-primary",
+    iconBg: "bg-primary/10",
     skills: ["Git", "GitHub", "Docker", "Docker Compose"],
   },
   {
-    title: "Orquestração & IaC",
+    title: "Orquestracao & IaC",
     icon: Workflow,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
-    skills: ["Apache Airflow", "AWS Step Functions", "Terraform"],
+    skills: ["Apache Airflow", "AWS Step Functions", "Amazon DMS", "dbt", "Terraform"],
   },
   {
     title: "Analytics & BI",
     icon: BarChart3,
-    iconColor: "text-violet-400",
-    iconBg: "bg-violet-400/10",
+    iconColor: "text-primary",
+    iconBg: "bg-primary/10",
     skills: ["Metabase", "Power BI", "Qlik Sense"],
   },
 ]
@@ -57,9 +57,9 @@ export function Skills() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <p className="font-mono text-primary mb-2">{"// skills.config"}</p>
-          <h2 className="text-4xl sm:text-5xl font-bold">
+          <h2 className="text-4xl sm:text-5xl font-bold text-balance">
             <span className="text-foreground">Stack </span>
-            <span className="text-primary">Técnico</span>
+            <span className="text-primary">Tecnico</span>
           </h2>
         </div>
 

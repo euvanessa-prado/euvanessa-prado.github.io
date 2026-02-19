@@ -26,9 +26,9 @@ export function Education() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <p className="font-mono text-primary mb-2">{"// education && languages"}</p>
-          <h2 className="text-4xl sm:text-5xl font-bold">
-            <span className="text-foreground">Formação </span>
-            <span className="text-primary">Acadêmica</span>
+          <h2 className="text-4xl sm:text-5xl font-bold text-balance">
+            <span className="text-foreground">Formacao </span>
+            <span className="text-primary">& Idiomas</span>
           </h2>
         </div>
 
@@ -40,7 +40,7 @@ export function Education() {
                 <GraduationCap className="w-6 h-6 text-primary" />
               </div>
               <div>
-                <p className="text-sm text-muted-foreground mb-1">Data Engineer</p>
+                <p className="text-sm text-muted-foreground mb-1">Graduacao</p>
                 <h3 className="font-semibold text-lg text-foreground">{education.degree}</h3>
               </div>
             </div>

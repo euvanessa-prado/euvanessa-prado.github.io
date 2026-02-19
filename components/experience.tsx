@@ -5,14 +5,14 @@ const experiences = [
     period: "Out 2023 - Presente",
     location: "Mato Grosso do Sul, BR",
     current: true,
-    description: "Responsavel pela engenharia e qualidade dos dados que sustentam a tomada de decisao estrategica da organizacao.",
+    description: "Responsável pela engenharia e qualidade dos dados que sustentam a tomada de decisão estratégica da organização.",
     highlights: [
-      "Desenvolvimento de views, funcoes e CTEs em SQL avancado com foco em performance e escalabilidade",
-      "Construcao e otimizacao de pipelines ETL para extracao, transformacao e disponibilizacao de dados",
-      "Modelagem relacional e dimensional para Data Warehouse e suporte analitico",
-      "Estruturacao de datasets otimizados para consumo em Power BI e Qlik Sense",
-      "Implementacao de regras de validacao e controles de qualidade, garantindo consistencia e integridade",
-      "Traducao de requisitos de negocio em solucoes tecnicas orientadas por dados e definicao de KPIs",
+      "Desenvolvimento de views, funções e CTEs em SQL avançado com foco em performance e escalabilidade",
+      "Construção e otimização de pipelines ETL para extração, transformação e disponibilização de dados",
+      "Modelagem relacional e dimensional para Data Warehouse e suporte analítico",
+      "Estruturação de datasets otimizados para consumo em Power BI e Qlik Sense",
+      "Implementação de regras de validação e controles de qualidade, garantindo consistência e integridade",
+      "Tradução de requisitos de negócio em soluções técnicas orientadas por dados e definição de KPIs",
     ],
   },
   {
@@ -21,38 +21,38 @@ const experiences = [
     period: "Out 2024 - Nov 2024",
     location: "Mato Grosso do Sul, BR",
     current: false,
-    description: "Apoio a gestao com dashboards, analises e processos de ETL para garantir qualidade dos dados.",
+    description: "Apoio à gestão com dashboards, análises e processos de ETL para garantir qualidade dos dados.",
     highlights: [
-      "Construcao de dashboards e relatorios analiticos para apoio a decisao",
-      "Desenvolvimento de processos ETL para garantir qualidade e consistencia dos dados",
+      "Construção de dashboards e relatórios analíticos para apoio à decisão",
+      "Desenvolvimento de processos ETL para garantir qualidade e consistência dos dados",
     ],
   },
   {
-    title: "Analista de Sistemas Senior",
+    title: "Analista de Sistemas Sênior",
     company: "CASSEMS",
     period: "Out 2022 - Set 2023",
     location: "Mato Grosso do Sul, BR",
     current: false,
-    description: "Configuracao e otimizacao de sistemas hospitalares em 10 unidades, com migracao de bases Oracle.",
+    description: "Configuração e otimização de sistemas hospitalares em 10 unidades, com migração de bases Oracle.",
     highlights: [
-      "Configuracao e otimizacao de modulos do sistema hospitalar em 10 unidades",
-      "Migracao de bases de dados Oracle com melhoria de 40% na acuracia dos registros medicos",
-      "Validacao entre sistemas legados e novo sistema, prevenindo inconsistencias na transicao",
-      "Documentacao tecnica, fluxos padronizados e dashboards para apoio operacional e gerencial",
+      "Configuração e otimização de módulos do sistema hospitalar em 10 unidades",
+      "Migração de bases de dados Oracle com melhoria de 40% na acurácia dos registros médicos",
+      "Validação entre sistemas legados e novo sistema, prevenindo inconsistências na transição",
+      "Documentação técnica, fluxos padronizados e dashboards para apoio operacional e gerencial",
     ],
   },
   {
-    title: "Analista de Negocios",
+    title: "Analista de Negócios",
     company: "CASSEMS",
     period: "Fev 2018 - Out 2022",
     location: "Mato Grosso do Sul, BR",
     current: false,
-    description: "Mapeamento de processos e levantamento de requisitos para implantacao de sistemas hospitalares.",
+    description: "Mapeamento de processos e levantamento de requisitos para implantação de sistemas hospitalares.",
     highlights: [
-      "Mapeamento de processos assistenciais, administrativos e financeiros para definicao de requisitos",
-      "Coleta de requisitos com equipes multidisciplinares (TI, faturamento, regulacao, auditoria)",
-      "Conducao de treinamentos e implantacao em campo em hospitais do Estado",
-      "Resultado: curva de adocao do sistema em 75%",
+      "Mapeamento de processos assistenciais, administrativos e financeiros para definição de requisitos",
+      "Coleta de requisitos com equipes multidisciplinares (TI, faturamento, regulação, auditoria)",
+      "Condução de treinamentos e implantação em campo em hospitais do Estado",
+      "Resultado: curva de adoção do sistema em 75%",
     ],
   },
   {
@@ -61,12 +61,12 @@ const experiences = [
     period: "Jan 2017 - Jan 2018",
     location: "Mato Grosso do Sul, BR",
     current: false,
-    description: "Suporte operacional hospitalar e contribuicao para implantacao do Prontuario Eletronico do Paciente.",
+    description: "Suporte operacional hospitalar e contribuição para implantação do Prontuário Eletrônico do Paciente.",
     highlights: [
-      "Organizacao de registros de faturamento e prontuarios medicos",
-      "Apoio ao processo de faturamento e validacao de dados no sistema MVSOUL",
-      "Contribuicao para implantacao do Prontuario Eletronico do Paciente (PEP)",
-      "Resultado: reducao de ~20% nas divergencias de registros medicos",
+      "Organização de registros de faturamento e prontuários médicos",
+      "Apoio ao processo de faturamento e validação de dados no sistema MVSOUL",
+      "Contribuição para implantação do Prontuário Eletrônico do Paciente (PEP)",
+      "Resultado: redução de ~20% nas divergências de registros médicos",
     ],
   },
 ]
@@ -78,7 +78,7 @@ export function Experience() {
         <div className="mb-12">
           <p className="font-mono text-primary mb-2">{"// work_experience.log"}</p>
           <h2 className="text-4xl sm:text-5xl font-bold text-balance">
-            <span className="text-foreground">Experiencia </span>
+            <span className="text-foreground">Experiência </span>
             <span className="text-primary">Profissional</span>
           </h2>
         </div>

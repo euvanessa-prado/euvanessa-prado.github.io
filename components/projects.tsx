@@ -6,7 +6,7 @@ const projects = [
     title: "Lakehouse Serverless - AWS",
     year: "2026",
     description:
-      "Arquitetura Data Lakehouse na AWS com Delta Lake, validacao por camada (Raw, Staged, Curated), ingestao via DMS Serverless e processamento com Glue Spark.",
+      "Arquitetura Data Lakehouse na AWS com Delta Lake, validação por camada (Raw, Staged, Curated), ingestão via DMS Serverless e processamento com Glue Spark.",
     icon: Cloud,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
@@ -17,7 +17,7 @@ const projects = [
     title: "Nextcloud - AWS",
     year: "2025",
     description:
-      "Migracao completa entre regioes AWS com ECS, Aurora PostgreSQL, EFS e ALB. Containers versionados com Docker e reducao de custos de 58,9%.",
+      "Migração completa entre regiões AWS com ECS, Aurora PostgreSQL, EFS e ALB. Containers versionados com Docker e redução de custos de 58,9%.",
     icon: Server,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
@@ -28,7 +28,7 @@ const projects = [
     title: "Arquitetura Zero-ETL",
     year: "2025",
     description:
-      "Replicacao continua de Aurora PostgreSQL para Redshift, eliminando pipelines ETL tradicionais. Transformacoes ELT com dbt e orquestracao via MWAA.",
+      "Replicação contínua de Aurora PostgreSQL para Redshift, eliminando pipelines ETL tradicionais. Transformações ELT com dbt e orquestração via MWAA.",
     icon: GitBranch,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
@@ -39,7 +39,7 @@ const projects = [
     title: "Unity Catalog Databricks",
     year: "2025",
     description:
-      "Governanca e gerenciamento centralizado de dados com Unity Catalog no Databricks para controle de acesso e linhagem.",
+      "Governança e gerenciamento centralizado de dados com Unity Catalog no Databricks para controle de acesso e linhagem.",
     icon: Database,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
@@ -50,7 +50,7 @@ const projects = [
     title: "Data Ingestion Lakeflow",
     year: "2025",
     description:
-      "Pipeline de ingestao de dados com Lakeflow Connect para integracao de multiplas fontes em um fluxo unificado.",
+      "Pipeline de ingestão de dados com Lakeflow Connect para integração de múltiplas fontes em um fluxo unificado.",
     icon: Layers,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
@@ -70,7 +70,7 @@ export function Projects() {
             <span className="text-primary">em Destaque</span>
           </h2>
           <p className="text-muted-foreground mt-2">
-            Arquiteturas reais construidas para estudo e aplicacao tecnica
+            Arquiteturas reais construídas para estudo e aplicação técnica
           </p>
         </div>
 
@@ -121,7 +121,7 @@ export function Projects() {
           <Button variant="outline" className="gap-2 bg-transparent" asChild>
             <a href="https://github.com/euvanessa-prado" target="_blank" rel="noopener noreferrer">
               <GitBranch className="w-4 h-4" />
-              Ver todos os repositorios
+              Ver todos os repositórios
             </a>
           </Button>
         </div>

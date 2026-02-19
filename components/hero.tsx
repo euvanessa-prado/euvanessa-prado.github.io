@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 const techIcons = [
   { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-  { name: "AWS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
+  { name: "AWS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg", invert: true },
   { name: "Terraform", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" },
   { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
   { name: "PostgreSQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
@@ -90,7 +90,7 @@ export function Hero() {
                   className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center hover:bg-secondary/80 transition-colors cursor-default p-2"
                   title={tech.name}
                 >
-                  <img src={tech.icon || "/placeholder.svg"} alt={tech.name} className="w-6 h-6 brightness-0 invert" />
+                  <img src={tech.icon || "/placeholder.svg"} alt={tech.name} className={`w-6 h-6 ${"invert" in tech && tech.invert ? "brightness-0 invert" : ""}`} />
                 </div>
               ))}
             </div>

@@ -47,11 +47,13 @@ export function Hero() {
           </div>
           
           <p className="text-muted-foreground text-lg leading-relaxed mb-4 max-w-2xl">
-            +8 anos em Tecnologia da Informação. Projeto e otimizo pipelines de dados na AWS, 
-            integrando múltiplas fontes com qualidade, governança e alta disponibilidade.
+            +8 anos em TI com foco em Engenharia de Dados. Construo e otimizo pipelines ETL, 
+            fluxos de ingestão e integração de múltiplas fontes na AWS, garantindo qualidade, 
+            consistência e validação de regras de negócio.
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-2xl">
-            Meu foco: transformar dados brutos em uma base sólida para decisões rápidas e seguras.
+            SQL avançado, modelagem dimensional e IaC para entregar pipelines estáveis, 
+            escaláveis e dados em alta disponibilidade.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-12">

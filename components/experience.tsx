@@ -6,14 +6,14 @@ const experiences = [
     location: "Mato Grosso do Sul, BR",
     current: true,
     description:
-      "Responsável pela engenharia e qualidade dos dados que sustentam a tomada de decisão estratégica da organização.",
+      "Engenharia e qualidade de dados para suporte à tomada de decisão estratégica na maior operadora de saúde do MS.",
     highlights: [
-      "Desenvolvimento de views, funções e CTEs em SQL avançado com foco em performance e escalabilidade",
-      "Construção e otimização de pipelines ETL para extração, transformação e disponibilização de dados",
+      "Views, funções e CTEs em SQL avançado com foco em performance e escalabilidade",
+      "Construção e otimização de processos ETL para extração, transformação e disponibilização de dados",
       "Modelagem relacional e dimensional para Data Warehouse e suporte analítico",
-      "Estruturação de datasets otimizados para consumo em Power BI e Qlik Sense",
-      "Implementação de regras de validação e controles de qualidade, garantindo consistência e integridade",
-      "Tradução de requisitos de negócio em soluções técnicas orientadas a dados e definição de KPIs",
+      "Datasets otimizados para consumo em Power BI e Qlik Sense",
+      "Regras de validação e controles de qualidade garantindo consistência e integridade",
+      "Resultado: redução no tempo de análise manual e melhoria na performance de rotinas ETL",
     ],
   },
   {
@@ -23,10 +23,10 @@ const experiences = [
     location: "Mato Grosso do Sul, BR",
     current: false,
     description:
-      "Apoio à gestão com dashboards, análises e processos de ETL para garantir qualidade e consistência dos dados.",
+      "Construção de dashboards e processos ETL para qualidade dos dados e apoio à gestão.",
     highlights: [
-      "Construção de dashboards e relatórios analíticos para apoio à tomada de decisão",
-      "Desenvolvimento de processos ETL para garantir qualidade e consistência dos dados",
+      "Dashboards e relatórios analíticos para apoio à tomada de decisão",
+      "Processos ETL para garantir qualidade e consistência dos dados",
     ],
   },
   {
@@ -36,12 +36,13 @@ const experiences = [
     location: "Mato Grosso do Sul, BR",
     current: false,
     description:
-      "Configuração e otimização de sistemas hospitalares em 10 unidades, incluindo migração de bases Oracle.",
+      "Configuração de sistemas hospitalares e migração de bases Oracle em 10 unidades de saúde.",
     highlights: [
       "Configuração e otimização de módulos do sistema hospitalar em 10 unidades",
-      "Migração de bases de dados Oracle com melhoria de 40% na acurácia dos registros médicos",
-      "Validação entre sistemas legados e novo sistema, prevenindo inconsistências na transição",
-      "Documentação técnica, fluxos padronizados e dashboards para apoio operacional e gerencial",
+      "Migração de bases Oracle garantindo integridade dos registros médicos",
+      "Validação entre sistemas legados e novo sistema, prevenindo inconsistências",
+      "Suporte técnico durante e após go-live garantindo estabilidade e adoção",
+      "Resultado: melhoria de 40% na acurácia dos dados após migração",
     ],
   },
   {
@@ -51,11 +52,12 @@ const experiences = [
     location: "Mato Grosso do Sul, BR",
     current: false,
     description:
-      "Mapeamento de processos e levantamento de requisitos para implantação de sistemas hospitalares.",
+      "Levantamento de requisitos e implantação de sistemas hospitalares em todo o Estado.",
     highlights: [
-      "Mapeamento de processos assistenciais, administrativos e financeiros para definição de requisitos",
-      "Coleta de requisitos com equipes multidisciplinares (TI, faturamento, regulação e auditoria)",
-      "Condução de treinamentos e implantação em campo em hospitais do Estado",
+      "Mapeamento de processos assistenciais, administrativos e financeiros",
+      "Coleta de requisitos com equipes multidisciplinares (TI, faturamento, regulação, auditoria)",
+      "Documentação de regras de negócio e especificações funcionais",
+      "Implantação em campo e treinamentos presenciais/remotos em hospitais do Estado",
       "Resultado: curva de adoção do sistema atingiu 75%",
     ],
   },
@@ -66,12 +68,12 @@ const experiences = [
     location: "Mato Grosso do Sul, BR",
     current: false,
     description:
-      "Suporte operacional hospitalar e contribuição para implantação do Prontuário Eletrônico do Paciente.",
+      "Suporte operacional e papel essencial na implantação do Prontuário Eletrônico do Paciente (PEP).",
     highlights: [
       "Organização de registros de faturamento e prontuários médicos",
-      "Apoio ao processo de faturamento e validação de dados no sistema MVSOUL",
-      "Contribuição para implantação do Prontuário Eletrônico do Paciente (PEP)",
-      "Resultado: redução de aproximadamente 20% nas divergências de registros médicos",
+      "Conferências de dados financeiros e integrações no sistema MVSOUL",
+      "Contribuição direta para implantação bem-sucedida do PEP",
+      "Resultado: redução de ~20% nas divergências de registros médicos",
     ],
   },
 ];

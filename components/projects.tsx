@@ -13,61 +13,64 @@ const projects = [
     title: "Lakehouse Serverless - AWS",
     year: "2026",
     description:
-      "Arquitetura Data Lakehouse na AWS com Delta Lake, validação por camada (Raw, Staged, Curated), ingestão via DMS Serverless e processamento com AWS Glue (Spark).",
+
+      "Data Lakehouse com Delta Lake e arquitetura Medallion (Raw/Staged/Curated). Ingestão via DMS Serverless, processamento com Glue Spark, orquestração com Step Functions e validação de qualidade com Great Expectations.",
     icon: Cloud,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
-    tags: [
-      "Delta Lake",
-      "AWS Glue",
-      "Step Functions",
-      "Terraform",
-      "Great Expectations",
-    ],
+    tags: ["Delta Lake", "AWS Glue", "Step Functions", "Terraform", "Great Expectations", "Athena"],
+
     link: "https://github.com/euvanessa-prado/projeto_lakehouse_serverless_delta_aws",
   },
   {
     title: "Nextcloud - AWS",
     year: "2025",
     description:
-      "Migração completa entre regiões AWS com ECS, Aurora PostgreSQL, EFS e ALB. Containers versionados com Docker e redução de custos de 58,9%.",
+
+      "Migração entre regiões AWS (São Paulo para Virgínia) com ECS, Aurora PostgreSQL, EFS e ALB. Segurança com IAM e Secrets Manager, observabilidade via CloudWatch. Resultado: redução de 58,9% nos custos.",
+
     icon: Server,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
-    tags: ["ECS", "Aurora", "Docker", "Terraform", "CloudWatch"],
+    tags: ["ECS", "Aurora", "Docker", "Terraform", "Secrets Manager", "CloudWatch"],
     link: "https://github.com/euvanessa-prado/terraform_for_ecs",
   },
   {
     title: "Arquitetura Zero-ETL",
     year: "2025",
     description:
-      "Replicação contínua de Aurora PostgreSQL para Redshift, eliminando pipelines ETL tradicionais. Transformações em modelo ELT com dbt e orquestração via MWAA (Airflow).",
+
+      "Replicação contínua de Aurora PostgreSQL para Redshift sem pipelines ETL tradicionais. Modelagem analítica com dbt, orquestração via MWAA e dashboards self-service no Metabase. IaC com Terraform.",
+
     icon: GitBranch,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
-    tags: ["Aurora", "Redshift", "dbt", "Airflow", "Terraform"],
+    tags: ["Aurora", "Redshift", "dbt", "Airflow", "Metabase", "Terraform"],
     link: "https://github.com/euvanessa-prado/arquitetura_zero_etl",
   },
   {
     title: "Unity Catalog - Databricks",
     year: "2025",
     description:
-      "Governança e gerenciamento centralizado de dados com Unity Catalog no Databricks, incluindo controle de acesso, catálogo e linhagem de dados.",
+      "Implementação de governança centralizada com Unity Catalog no Databricks para controle de acesso granular, linhagem de dados e gestão unificada de metadados.",
+
     icon: Database,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
-    tags: ["Databricks", "Python", "Unity Catalog"],
+    tags: ["Databricks", "Unity Catalog", "Python", "Data Governance"],
     link: "https://github.com/euvanessa-prado/unity_catalog_databricks",
   },
   {
     title: "Data Ingestion - Lakeflow",
     year: "2025",
     description:
-      "Pipeline de ingestão de dados com Lakeflow Connect para integração de múltiplas fontes em fluxo unificado e estruturado.",
+
+      "Pipeline de ingestão com Lakeflow Connect para integração de múltiplas fontes em fluxo unificado, simplificando a coleta e padronização de dados.",
+
     icon: Layers,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
-    tags: ["Lakeflow", "Data Ingestion", "ETL"],
+    tags: ["Lakeflow", "Data Ingestion", "Databricks"],
     link: "https://github.com/euvanessa-prado/data_ingestion_lakeflow_connect",
   },
 ];
@@ -87,7 +90,10 @@ export function Projects() {
           </h2>
 
           <p className="text-muted-foreground mt-2">
-            Arquiteturas reais desenvolvidas para estudo e aplicação técnica.
+
+            Arquiteturas reais construídas para estudo e aplicação técnica
+
+            
           </p>
         </div>
 

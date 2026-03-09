@@ -31,7 +31,7 @@ const skillCategories = [
     skills: ["Git", "GitHub", "Docker", "Docker Compose"],
   },
   {
-    title: "Orquestracao & IaC",
+    title: "Orquestração & IaC",
     icon: Workflow,
     iconColor: "text-primary",
     iconBg: "bg-primary/10",
@@ -59,7 +59,7 @@ export function Skills() {
           <p className="font-mono text-primary mb-2">{"// skills.config"}</p>
           <h2 className="text-4xl sm:text-5xl font-bold text-balance">
             <span className="text-foreground">Stack </span>
-            <span className="text-primary">Tecnico</span>
+            <span className="text-primary">Técnico</span>
           </h2>
         </div>
 

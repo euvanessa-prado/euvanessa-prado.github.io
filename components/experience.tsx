@@ -113,9 +113,9 @@ export function Experience() {
 
                 {/* Content */}
                 <div
-                className={`md:w-1/2 pl-8 md:pl-0 ${
+                  className={`md:w-1/2 pl-8 md:pl-0 ${
                     index % 2 === 0 ? "md:pr-12" : "md:pl-12"
-
+                  }`}
                 >
                   <div className="p-6 rounded-xl border border-border bg-card">
                     <div className="flex items-start justify-between mb-4">

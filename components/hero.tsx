@@ -15,14 +15,24 @@ const techIcons = [
   { name: "Power BI", icon: "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" },
 ]
 
+const roles = ["Data Engineer", "Analytics Engineer", "Data Analyst"]
+
 export function Hero() {
   const [showCursor, setShowCursor] = useState(true)
+  const [roleIndex, setRoleIndex] = useState(0)
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    const cursorInterval = setInterval(() => {
       setShowCursor((prev) => !prev)
     }, 530)
-    return () => clearInterval(interval)
+    return () => clearInterval(cursorInterval)
+  }, [])
+
+  useEffect(() => {
+    const roleInterval = setInterval(() => {
+      setRoleIndex((prev) => (prev + 1) % roles.length)
+    }, 3000)
+    return () => clearInterval(roleInterval)
   }, [])
 
   return (
@@ -39,7 +49,7 @@ export function Hero() {
           
           <div className="flex items-center gap-1 mb-6">
             <h2 className="text-2xl sm:text-3xl font-bold text-foreground font-mono">
-              Data Engineer
+              <span className="transition-opacity duration-300">{roles[roleIndex]}</span>
             </h2>
             <span 
               className={`inline-block w-3 h-8 bg-primary ${showCursor ? 'opacity-100' : 'opacity-0'} transition-opacity`}
